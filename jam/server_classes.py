@@ -262,7 +262,12 @@ class ServerDataset(Dataset, SQL):
             if connection and autocommit:
                 connection.close()
         return result
-
+    
+    def apply_changes(self, data, safe):
+        self.abort(u'This is a demo version with limited functionality. \
+            You are not allowed to write changes to the database. \
+            The full-featured version is located in the demo folder of the Jam.py package.')
+        
     def update_deleted(self):
         if self._is_delta:
             rec_no = self.rec_no

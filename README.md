@@ -2,11 +2,11 @@
 
 Welcome! 
 
-This is the Heroku Application for managing staff training developed with Jam.py Application Builder:
+This is the Application run on Heroku for managing staff training developed with Jam.py Application Builder:
 
 https://cohortstraining.herokuapp.com/
 
-About the App:
+About the App by original Author:
 
 "Administration of this is done by my team for employees.  It's not intended for employees to use themselves.  Staff are assigned to cohorts by the team as part of the **booking** process and this is done from the staff view/edit form where the staff_cohorts is a details. I have buttons that, when a staff member is selected, it opens straight to the add to cohort screen with some hacky jquery automation.
 
@@ -167,6 +167,6 @@ The new and empty App will run at http://localhost:8080
 Please visit http://jam-py.com/docs/intro/index.html for complete Getting Started Introduction and Import of above file.
 
 
-
-
 Hopefully this helps!
+
+License MIT, free to use.

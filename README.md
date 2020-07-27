@@ -1,8 +1,17 @@
 # Cohorts Training Jam.py Application 
 
-Welcome! This is the Heroku Application for managing staff training developed with Jam.py Application Builder:
+Welcome! 
+
+This is the Heroku Application for managing staff training developed with Jam.py Application Builder:
 
 https://cohortstraining.herokuapp.com/
+
+About the App:
+
+"Administration of this is done by my team for employees.  It's not intended for employees to use themselves.  Staff are assigned to cohorts by the team as part of the **booking** process and this is done from the staff view/edit form where the staff_cohorts is a details. I have buttons that, when a staff member is selected, it opens straight to the add to cohort screen with some hacky jquery automation.
+
+The code that wasn't included from the cohorts view is that we use the multi-select and can assign specific training modules (which is another details view on staff) to some/all of the staff in a specific cohort once they have completed them as part of their classes. Also the ability to generate a list of email addresses for all of the the staff in a cohort to contact them.  The intention isn't to change cohort membership from this side.  The reason that it's done like that is initial training is over three weeks so someone may be part of a cohort but not complete all training modules.  They may then join a later cohort to complete modules they have missed."
+
 
 
 
@@ -70,7 +79,7 @@ function on_view_form_shown(item) {
 The render bug is that the column sizing doesn't auto-correct until you first scroll, the refresh fixes that.
 
 
-How to run in *your* environment?
+How to run the App in *your* environment?
 ------------
 
 Open https://cohortstraining.herokuapp.com/builder.html , click on Project/Export. The downloaded file will be used below.
@@ -137,7 +146,7 @@ python server.py
 ```
 The new and empty App will run at http://localhost:8080
 
-Please visit http://jam-py.com/docs/intro/index.html for complete Getting Started Introduction and Import.
+Please visit http://jam-py.com/docs/intro/index.html for complete Getting Started Introduction and Import of above file.
 
 
 

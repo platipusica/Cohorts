@@ -79,6 +79,21 @@ function on_view_form_shown(item) {
 The render bug is that the column sizing doesn't auto-correct until you first scroll, the refresh fixes that.
 
 
+Please visit for more inf about the Jam.py:
+
+http://jampyapplicationbuilder.com/
+
+and more Demos:
+
+https://jampy-aliases.herokuapp.com
+
+https://redhatsatellite.herokuapp.com
+
+https://sambashares.herokuapp.com/
+
+https://jampy.pythonanywhere.com
+
+
 How to run the App in *your* environment?
 ------------
 

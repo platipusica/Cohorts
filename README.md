@@ -78,8 +78,10 @@ function on_view_form_shown(item) {
 
 The render bug is that the column sizing doesn't auto-correct until you first scroll, the refresh fixes that.
 
+About Jam.py Application Builder
+------------
 
-Please visit for more inf about the Jam.py:
+Please visit for more info about the Jam.py:
 
 http://jampyapplicationbuilder.com/
 
@@ -97,7 +99,8 @@ https://jampy.pythonanywhere.com
 How to run the App in *your* environment?
 ------------
 
-Open https://cohortstraining.herokuapp.com/builder.html , click on Project/Export. The downloaded file will be used below.
+Open https://cohortstraining.herokuapp.com/builder.html , click on Project/Export. The downloaded file will be used for below Import.
+This procedure is applicable for any of above Demo Applications.
 
 
 

@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This is the Application run on Heroku for managing staff training developed with Jam.py Application Builder:
+This is the Application hosted on Heroku for managing staff training, developed with Jam.py Application Builder:
 
 https://cohortstraining.herokuapp.com/
 
